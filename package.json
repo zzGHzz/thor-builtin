@@ -1,0 +1,24 @@
+{
+	"name": "thor-builtin",
+	"version": "1.0.0",
+	"description": "Addresses and ABIs of the built-in contracts deployed on the VeChain Thor blockchain.",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "rm -rf dist/ && node_modules/.bin/tsc -d -p . ",
+    	"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zzGHzz/thor-builtin.git"
+	},
+	"author": "Peter Zhou",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/zzGHzz/thor-builtin/issues"
+	},
+	"homepage": "https://github.com/zzGHzz/thor-builtin#readme",
+	"devDependencies": {
+		"@types/node": "^17.0.23",
+		"typescript": "^4.6.3"
+	}
+}
